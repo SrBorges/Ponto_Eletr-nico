@@ -12,7 +12,7 @@ public class RegistroPonto {
     private LocalTime horaSaida = LocalTime.of(23, 00);
     Date  date = new Date();
 
-    Funcionario Func = new Funcionario(00, "xxx", "xxx", "xxx");
+    Funcionario Func = new Funcionario();
 
 
     public void apresentarRegistroPonto(){
