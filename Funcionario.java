@@ -6,6 +6,10 @@ public class Funcionario {
     private String nome;
     private String email;
     private String rg;
+    
+    public Funcionario(){
+        
+    }
 
 
     public Funcionario(int idFunc, String nome, String email, String rg){
